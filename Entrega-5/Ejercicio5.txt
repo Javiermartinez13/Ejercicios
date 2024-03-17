@@ -1,0 +1,26 @@
+//18
+1. Maven es una herramienta de gestión de proyectos de software para Java que facilita la construcción, informe y documentación de proyectos. 
+Simplifica el desarrollo colaborativo y la automatización de tareas de construcción.
+
+2. El repositorio central de Maven es una fuente en línea mantenida por la comunidad de desarrolladores de 
+Apache Maven que alberga bibliotecas y artefactos de software Java. En general, es considerado confiable, 
+pero se recomienda verificar la calidad y autenticidad de las bibliotecas antes de usarlas.
+
+3. El repositorio local de Maven es un directorio en el sistema de archivos del desarrollador donde Maven almacena las dependencias descargadas localmente. 
+Proporciona un mecanismo eficiente para gestionar dependencias y mejorar el rendimiento del proceso de construcción al 
+evitar descargas repetidas de dependencias comunes.
+
+//20
+2.Un arquetipo en Maven es una plantilla predefinida para la creación rápida de proyectos. Define la estructura inicial del proyecto, 
+incluyendo la configuración básica y los archivos necesarios. Estos arquetipos simplifican el proceso de inicio de un nuevo proyecto 
+al proporcionar una base estandarizada y lista para usar, evitando así la necesidad de configuraciones repetitivas. 
+Además, permiten a los desarrolladores adoptar las mejores prácticas y convenciones de Maven de manera consistente en sus proyectos.
+4.POM o Project Object Model, es un acrhivo xml el cual contiene toda la informacion de un proyexto en maven.
+10.Las fases de Maven se utilizan para organizar y ejecutar tareas específicas durante el ciclo de vida de construcción de un proyecto. 
+- **validate**: Verifica la validez del proyecto, asegurándose de que todas las configuraciones necesarias estén presentes y sean correctas.
+- **compile**: Compila el código fuente del proyecto, convirtiéndolo en bytecode ejecutable.
+- **test**: Ejecuta las pruebas definidas en el proyecto para garantizar su funcionamiento correcto.
+- **package**: Empaqueta el proyecto compilado en un formato específico, como un archivo JAR, listo para su distribución y ejecución.
+- **deploy**: Despliega el paquete generado en un repositorio remoto, como un repositorio de artefactos Maven o un servidor de aplicaciones.
+- **clean**: Elimina los archivos generados en construcciones anteriores, limpiando el directorio de salida.
+- **site**: Genera documentación del proyecto, como informes de análisis de código, cobertura de pruebas y documentos de usuario, para ser visualizados en un sitio web.
